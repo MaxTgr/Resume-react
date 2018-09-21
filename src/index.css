@@ -1,1 +1,45 @@
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #209cee;
+  transform: translateY(-0.25em);
+}
 
+.gh.raise:hover,
+.gh.raise:focus,
+.gh.raise:active{
+    color: #131618;
+}
+
+.in.raise:hover,
+.in.raise:focus,
+.in.raise:active{
+    color: #0077b5;
+}
+
+.email.raise:hover,
+.email.raise:focus,
+.email.raise:active{
+    color: #D54B3D;
+}
+
+.wp.raise:hover,
+.wp.raise:focus,
+.wp.raise:active{
+    color: #1ebea5;
+}
+
+button {
+    color: #363636;
+    transition: .5s;
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    font: inherit;
+    margin: 0.2rem;
+}
+
+button:hover,
+button:focus,
+button:active {
+    border-color: #209cee;
+} 

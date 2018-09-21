@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <section>
-        <section className="hero is-light is-bold is-large">
+        <section className="hero is-light is-bold is-medium">
           <div className="hero-head">
             <nav className="navbar">
               <div className="container">
@@ -56,25 +56,11 @@ class App extends Component {
               <p className="subtitle is-size-5-touch is-size-3-desktop">
                 Desenvolvedor fullstack e mobile.
               </p>
-              <div className="is-size-3-touch is-size-1-desktop">
-                <a>
-                  <i class="fab fa-github"></i>
-                </a>
-                <a>
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a>
-                  <i class="fas fa-globe-americas"></i>
-                </a>
-                <a>
-                  <i class="fas fa-phone"></i>
-                </a>
-                <a>
-                  <i class="fab fa-whatsapp"></i>
-                </a>
-                <a>
-                  <i class="fab fa-telegram"></i>
-                </a>
+              <div id="social-links" className="is-size-3-touch is-size-1-desktop">
+                <button class="gh raise"><i className="fab fa-github"></i></button>
+                <button class="in raise"><i className="fab fa-linkedin"></i></button>
+                <button class="email raise"><i className="fas fa-envelope"></i></button>
+                <button class="wp raise"><i className="fab fa-whatsapp"></i></button>
               </div>
             </div>
           </div>
