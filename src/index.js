@@ -56,9 +56,24 @@ class App extends Component {
               <p className="subtitle is-size-5-touch is-size-3-desktop">
                 Desenvolvedor fullstack e mobile.
               </p>
-              <div>
+              <div className="is-size-3-touch is-size-1-desktop">
                 <a>
-
+                  <i class="fab fa-github"></i>
+                </a>
+                <a>
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a>
+                  <i class="fas fa-globe-americas"></i>
+                </a>
+                <a>
+                  <i class="fas fa-phone"></i>
+                </a>
+                <a>
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a>
+                  <i class="fab fa-telegram"></i>
                 </a>
               </div>
             </div>
