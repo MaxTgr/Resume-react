@@ -43,3 +43,27 @@ button:focus,
 button:active {
     border-color: #209cee;
 } 
+
+#spotify-frame{
+    margin: 0 auto;
+    display: block;
+}
+
+.card i{
+    margin: 0 5px;
+}
+
+footer.footer{
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 2rem 1.5rem 2rem;
+}
+
+footer.footer i{
+    color: #f00;
+}
+
+footer.footer a{
+    text-decoration: none;
+    color: #fff;
+}
