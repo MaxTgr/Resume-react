@@ -1,0 +1,127 @@
+{
+    "socialButtonsData": [
+        {
+            "style": "gh raise",
+            "icon": "fab fa-github",
+            "link": "#"
+        },
+        {
+            "style": "in raise",
+            "icon": "fab fa-linkedin",
+            "link": "#"
+        },
+        {
+            "style": "email raise",
+            "icon": "fas fa-envelope",
+            "link": "#"
+        },
+        {
+            "style": "wp raise",
+            "icon": "fab fa-whatsapp",
+            "link": "#"
+        }
+    ],
+
+    "projectCardsData": [
+        {
+            "title": "Fez Translate",
+            "content": "Um aplicativo android para traduzir a linguagem do jogo Fez",
+            "icons": [
+                "fab fa-android"
+            ],
+            "links": [
+                {
+                    "name": "Playstore",
+                    "link": "https://play.google.com/store/apps/details?id=com.max.tgr.fezhelper"
+                },
+                {
+                    "name": "Source",
+                    "link": "https://github.com/MaxTgr/Fez-Translate"
+                }
+            ]
+        },
+        {
+            "title": "Errow",
+            "content": "Um simples jogo feito em Corona Sdk",
+            "icons": [
+                "fas fa-gamepad",
+                "fab fa-android"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "link": "https://github.com/MaxTgr/Errow"
+                }
+            ]
+        },
+        {
+            "title": "Ordis Prime Bot",
+            "content": "Um bot de telegram para informações de Warframe",
+            "icons": [
+                "fab fa-node-js",
+                "fab fa-telegram"
+            ],
+            "links": [
+                {
+                    "name": "Telegram",
+                    "link": "https://t.me/ordis_prime_bot"
+                },
+                {
+                    "name": "Source",
+                    "link": "https://github.com/MaxTgr/Ordis-Prime"
+                }
+            ]
+        },
+        {
+            "title": "Ws-Unip",
+            "content": "Um projeto de webservice (app android + servidor)",
+            "icons": [
+                "fab fa-java",
+                "fab fa-android"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "link": "https://github.com/MaxTgr/Ws-Unip-Android"
+                }
+            ]
+        },
+        {
+            "title": "Meus sites",
+            "content": "Fiz varios sites com materialize / bootstrap",
+            "icons": [
+                "fas fa-globe",
+                "fab fa-react"
+            ],
+            "links": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/MaxTgr?utf8=%E2%9C%93&tab=repositories&q=Resume&type=&language="
+                }
+            ]
+        }
+    ],
+    "skillsData": [
+        { 
+            "area": "FrontEnd",
+            "skillList": "Html5, Css3, Javascript, ES6, Jquery, React, Vue, Bootstrap, Matelialize."
+        },
+        { 
+            "area": "BackEnd",
+            "skillList": "Node.js, Express, MongoDB, SQL, APIs, Ajax."
+        },
+        { 
+            "area": "Desktop",
+            "skillList":"Electron, WPF, Unity3D."
+        },
+        {
+            "area": "Mobile",
+            "skillList": "Android Native(Java + Kotlin), React Native, Corona SDK."
+        },
+        { 
+            "area": "Software",
+            "skillList": "Docs/Office, Adobe CC, Git."
+        }
+    ]
+
+}
