@@ -3,22 +3,22 @@
         {
             "style": "gh raise",
             "icon": "fab fa-github",
-            "link": "#"
+            "link": "https://github.com/MaxTgr"
         },
         {
             "style": "in raise",
             "icon": "fab fa-linkedin",
-            "link": "#"
+            "link": "https://www.linkedin.com/in/raran-a-costa/"
         },
         {
             "style": "email raise",
             "icon": "fas fa-envelope",
-            "link": "#"
+            "link": "mailto:raranmariano@hotmail.com"
         },
         {
             "style": "wp raise",
             "icon": "fab fa-whatsapp",
-            "link": "#"
+            "link": "https://wa.me/5586988864778"
         }
     ],
 
