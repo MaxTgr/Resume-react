@@ -44,6 +44,18 @@ button:active {
     border-color: #209cee;
 } 
 
+#social-links{
+    margin-bottom: 10px;
+}
+
+#hidden-message{
+    margin: 10px auto;
+}
+
+.default-hidden-message{
+    display: none;
+}
+
 #spotify-frame{
     margin: 0 auto;
     display: block;

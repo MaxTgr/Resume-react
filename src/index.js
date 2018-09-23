@@ -11,7 +11,7 @@ function SocialButtons(){
 
   // gets the data from the json and sends to react
   data.socialButtonsData.forEach((e, index) => {
-      ret.push(<button key={index} className={e.style}><a href={e.link}><i className={e.icon}></i></a></button>);
+      ret.push(<a href={e.link} target="_blank"><button key={index} className={e.style}><i className={e.icon}></i></button></a>);
   });
 
   return ret;
@@ -144,9 +144,23 @@ class App extends Component {
               <div id="social-links" className="is-size-3-touch is-size-1-desktop">
                 <SocialButtons />
               </div>
+              <div className="columns">
+                <article id="hidden-message" class="message is-info default-hidden-message column is-one-third is-offset-half">
+                  <div class="message-header">
+                    <p>Contato Direto</p>
+                    <button class="delete" aria-label="delete"></button>
+                  </div>
+                  <div class="message-body">
+                    Meu telefone e whatsapp são: <strong>(86) 98886-4778</strong>
+                    <br/><br/>
+                    Meu skype tem o usuario linkado ao meu email: <strong>raranmariano@hotmail.com</strong>
+                  </div>
+                </article>
+              </div>
             </div>
           </div>
         </section>
+
         <section className="hero is-info is-large">
           <div className="hero-body columns">
             <div className="is-one-third column">
