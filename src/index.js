@@ -4,6 +4,17 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import * as data from './data.json';
 
+function MessageHandler(state){
+  var messageElement = document.getElementById("hidden-message");
+  if(state){
+    messageElement.classList.remove("default-hidden-message");
+  }else{
+    messageElement.classList.add("default-hidden-message");
+  }
+
+  return false;
+}
+
 // creates the main link buttons on the first page
 function SocialButtons(){
 
@@ -11,7 +22,15 @@ function SocialButtons(){
 
   // gets the data from the json and sends to react
   data.socialButtonsData.forEach((e, index) => {
+    if(e.mobileDiff){
+      if(window.innerWidth < 768){
+        ret.push(<a href={e.link.mobile} target="_blank"><button key={index} className={e.style}><i className={e.icon.mobile}></i></button></a>);
+      }else{
+        ret.push(<button key={index} onClick={() => MessageHandler(true)} className={e.style}><i className={e.icon.desktop}></i></button>);
+      }
+    }else{
       ret.push(<a href={e.link} target="_blank"><button key={index} className={e.style}><i className={e.icon}></i></button></a>);
+    }
   });
 
   return ret;
@@ -148,7 +167,7 @@ class App extends Component {
                 <article id="hidden-message" class="message is-info default-hidden-message column is-one-third is-offset-half">
                   <div class="message-header">
                     <p>Contato Direto</p>
-                    <button class="delete" aria-label="delete"></button>
+                    <button onClick={() => MessageHandler(false)} class="delete" aria-label="delete"></button>
                   </div>
                   <div class="message-body">
                     Meu telefone e whatsapp são: <strong>(86) 98886-4778</strong>
@@ -186,7 +205,8 @@ class App extends Component {
             </div>
           </div>
         </section>
-        <section className="hero is-link is-large">
+
+        <section id="projects" className="hero is-link is-large">
           <div className="hero-body">
             <div className="container has-text-centered">
               <h1 className="title is-size-3-touch is-size-1-desktop">

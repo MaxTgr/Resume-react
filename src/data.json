@@ -1,24 +1,33 @@
 {
     "socialButtonsData": [
         {
+            "mobileDiff": false,
             "style": "gh raise",
             "icon": "fab fa-github",
             "link": "https://github.com/MaxTgr"
         },
         {
+            "mobileDiff": false,
             "style": "in raise",
             "icon": "fab fa-linkedin",
             "link": "https://www.linkedin.com/in/raran-a-costa/"
         },
         {
+            "mobileDiff": false,
             "style": "email raise",
             "icon": "fas fa-envelope",
             "link": "mailto:raranmariano@hotmail.com"
         },
         {
+            "mobileDiff": true,
             "style": "wp raise",
-            "icon": "fab fa-whatsapp",
-            "link": "https://wa.me/5586988864778"
+            "icon": {
+                "mobile": "fab fa-whatsapp",
+                "desktop": "fas fa-phone"
+            },
+            "link": {
+                "mobile": "https://wa.me/5586988864778"
+            }
         }
     ],
 

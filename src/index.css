@@ -42,6 +42,7 @@ button:hover,
 button:focus,
 button:active {
     border-color: #209cee;
+    cursor: pointer;
 } 
 
 #social-links{
@@ -63,6 +64,10 @@ button:active {
 
 .card i{
     margin: 0 5px;
+}
+
+#projects .card a:hover{
+    color: #3F51B5;
 }
 
 footer.footer{
