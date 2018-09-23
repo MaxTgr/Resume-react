@@ -134,13 +134,13 @@ class App extends Component {
                 </div>
                 <div id="navbarMenuHeroB" className="navbar-menu">
                   <div className="navbar-end">
-                    <a className="navbar-item is-active">
+                    <a href="#inicio" className="navbar-item is-active">
                       Inicio
                     </a>
-                    <a className="navbar-item">
+                    <a href="#sobre" className="navbar-item">
                       Sobre
                     </a>
-                    <a className="navbar-item">
+                    <a href="#projetos" className="navbar-item">
                       Projetos
                     </a>
                   </div>
@@ -149,7 +149,7 @@ class App extends Component {
             </nav>
           </div>
 
-          <div className="hero-body">
+          <div id="inicio" className="hero-body">
             <div className="container has-text-centered">
               <div>
                 <img src="./Tiger Tail.png" width="100rem" alt="logo"/>
@@ -180,7 +180,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section className="hero is-info is-large">
+        <section id="sobre" className="hero is-info is-large">
           <div className="hero-body columns">
             <div className="is-one-third column">
                 <article className="message is-link">
@@ -206,7 +206,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section id="projects" className="hero is-link is-large">
+        <section id="projetos" className="hero is-link is-large">
           <div className="hero-body">
             <div className="container has-text-centered">
               <h1 className="title is-size-3-touch is-size-1-desktop">

@@ -66,7 +66,7 @@ button:active {
     margin: 0 5px;
 }
 
-#projects .card a:hover{
+#projects .card .card-footer a:hover{
     color: #3F51B5;
 }
 
