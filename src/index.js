@@ -70,7 +70,7 @@ class ProjectCards extends Component{
     let buttons = [];
 
     data.projectCardsData[index].links.forEach((e, insideIndex) => {
-      buttons.push(<a key={insideIndex} href={e.link} className="card-footer-item">{e.name}</a>);
+      buttons.push(<a key={insideIndex} href={e.link} className="card-footer-item" target="_blank">{e.name}</a>);
     });
     
     return buttons;
