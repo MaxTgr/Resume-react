@@ -1,13 +1,13 @@
 {
-  "main.css": "maxcostadev.me/static/css/main.8ee34c03.chunk.css",
-  "main.js": "maxcostadev.me/static/js/main.b26797b6.chunk.js",
-  "main.js.map": "maxcostadev.me/static/js/main.b26797b6.chunk.js.map",
-  "static/js/1.b1899819.chunk.js": "maxcostadev.me/static/js/1.b1899819.chunk.js",
-  "static/js/1.b1899819.chunk.js.map": "maxcostadev.me/static/js/1.b1899819.chunk.js.map",
-  "runtime~main.js": "maxcostadev.me/static/js/runtime~main.50df8500.js",
-  "runtime~main.js.map": "maxcostadev.me/static/js/runtime~main.50df8500.js.map",
-  "static/css/main.8ee34c03.chunk.css.map": "maxcostadev.me/static/css/main.8ee34c03.chunk.css.map",
-  "index.html": "maxcostadev.me/index.html",
-  "precache-manifest.79b23a19060ab20823cfd980fc2f821f.js": "maxcostadev.me/precache-manifest.79b23a19060ab20823cfd980fc2f821f.js",
-  "service-worker.js": "maxcostadev.me/service-worker.js"
+  "main.css": "maxtgr.github.io/Resume-react/static/css/main.8ee34c03.chunk.css",
+  "main.js": "maxtgr.github.io/Resume-react/static/js/main.f7e157c8.chunk.js",
+  "main.js.map": "maxtgr.github.io/Resume-react/static/js/main.f7e157c8.chunk.js.map",
+  "static/js/1.b1899819.chunk.js": "maxtgr.github.io/Resume-react/static/js/1.b1899819.chunk.js",
+  "static/js/1.b1899819.chunk.js.map": "maxtgr.github.io/Resume-react/static/js/1.b1899819.chunk.js.map",
+  "runtime~main.js": "maxtgr.github.io/Resume-react/static/js/runtime~main.6c84cefb.js",
+  "runtime~main.js.map": "maxtgr.github.io/Resume-react/static/js/runtime~main.6c84cefb.js.map",
+  "static/css/main.8ee34c03.chunk.css.map": "maxtgr.github.io/Resume-react/static/css/main.8ee34c03.chunk.css.map",
+  "index.html": "maxtgr.github.io/Resume-react/index.html",
+  "precache-manifest.440589ec842141d13bccf1565925ebc9.js": "maxtgr.github.io/Resume-react/precache-manifest.440589ec842141d13bccf1565925ebc9.js",
+  "service-worker.js": "maxtgr.github.io/Resume-react/service-worker.js"
 }

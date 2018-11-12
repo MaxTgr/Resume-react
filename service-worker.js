@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "maxcostadev.me/precache-manifest.79b23a19060ab20823cfd980fc2f821f.js"
+  "maxtgr.github.io/Resume-react/precache-manifest.440589ec842141d13bccf1565925ebc9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("maxcostadev.me/index.html", {
+workbox.routing.registerNavigationRoute("maxtgr.github.io/Resume-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
